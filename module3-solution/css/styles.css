@@ -83,13 +83,13 @@ body {
 }
 
 #Chicken-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
+ 
   background-position: center;
   position: relative;
   color: #404040
 }
 #Beef-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
+  
   background-position: center;
   color: #404040
 }
@@ -114,38 +114,20 @@ color: #404040
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
-    height: 675px;
+
   }
-}
+
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-  /* Header */
-  #logo-img {
-    background: url('../images/restaurant-logo_medium.png') no-repeat;
-    width: 100px;
-    height: 100px;
-    margin: 5px 5px 5px 0;
-  }
-  /* End Header */
-
-  /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
-    height: 558px;
-  }
+  
   /* End Home Page */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
-  .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
-    height: 432px;
-  }
+ 
   /* End Home Page */
 
 }
@@ -217,10 +199,7 @@ color: #404040
   }
   /* End Header */
   
-  /* Home page */
-  #Chicken-tile, #Beef-tile {
-    width: 280px;
-    margin: 0 auto 15px;
+
   }
 }
 
